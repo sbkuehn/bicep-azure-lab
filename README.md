@@ -1,0 +1,1 @@
+# bicep-azure-lab
