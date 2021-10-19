@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vNetName": {
+      "value": "azbicephub"
+    },
+    "sub1Name": {
+      "value": "azbicephub-sub1"
+    },
+    "sub2Name": {
+      "value": "azbicephub-sub2"
+    },
+    "vNetPrefix": {
+      "value": "10.70.0.0/16"
+    },
+    "sub1Prefix": {
+      "value": "10.70.1.0/24"
+    },
+    "sub2Prefix": {
+      "value": "10.70.2.0/24"
+    },
+    "vpnType": {
+      "value": "RouteBased"
+    },
+    "location": {
+      "value": "eastus2"
+    },
+    "gtwaySubPrefix": {
+      "value": "10.70.3.0/29"
+    },
+    "gtwayPIPName": {
+      "value": "azbicephub-pip"
+    },
+    "gtwayName": {
+      "value": "azbicephub-gtwy"
+    },
+    "gtwaySku": {
+      "value": "VpnGw1"
+    }
+   }
+  }
